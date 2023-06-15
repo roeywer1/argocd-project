@@ -9,12 +9,14 @@ items:
       include.release.openshift.io/single-node-developer: "true"
       oauth-apiserver.openshift.io/secure-token-storage: "true"
       release.openshift.io/create-only: "true"
+    generation: ""
     name: cluster
     ownerReferences:
     - apiVersion: config.openshift.io/v1
       kind: ClusterVersion
       name: version
       uid: 98260553-0bab-4c0f-b8b1-75dc0e2e2ac4
+    resourceVersion: ""
     uid: f5dc1aa7-0ac2-46fc-b058-f556a0ad6c75
   spec:
     encryption:
