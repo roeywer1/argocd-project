@@ -9,6 +9,7 @@ items:
       include.release.openshift.io/single-node-developer: "true"
       oauth-apiserver.openshift.io/secure-token-storage: "true"
       release.openshift.io/create-only: "true"
+    generation: 2
     name: cluster
     ownerReferences:
     - apiVersion: config.openshift.io/v1
