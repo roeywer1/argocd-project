@@ -20,7 +20,7 @@ items:
     uid: f5dc1aa7-0ac2-46fc-b058-f556a0ad6c75
   spec:
     encryption:
-      type: aesgcm 
+      type: aescbc 
     audit:
       profile: Default
 kind: List
