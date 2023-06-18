@@ -21,9 +21,6 @@ items:
       type: aescbc 
     audit:
       profile: Default
-    syncPolicy:
-      syncOptions:
-      - RespectIgnoreDifferences=true
     ignoreDifferences:
       - group: "*"
         kind: "*"
@@ -32,6 +29,9 @@ items:
         - /metadata/ownerReferences/uid
         - /metadata/generation
         - /metadata/generation
+    syncPolicy:
+      syncOptions:
+      - RespectIgnoreDifferences=true
 kind: List
 metadata:
   resourceVersion: ""
