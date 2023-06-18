@@ -21,17 +21,17 @@ items:
       type: aescbc 
     audit:
       profile: Default
-    ignoreDifferences:
-      - group: "*"
-        kind: APIServer
-        jsonPointers:
-        - /metadata/uid
-        - /metadata/ownerReferences/uid
-        - /metadata/generation
-        - /metadata/generation
-    syncPolicy:
-      syncOptions:
-      - RespectIgnoreDifferences=true
+   # ignoreDifferences:
+      #- group: "*"
+     #   kind: APIServer
+    #    jsonPointers:
+     #   - /metadata/uid
+     #   - /metadata/ownerReferences/uid
+    #    - /metadata/generation
+     #   - /metadata/generation
+   # syncPolicy:
+   #   syncOptions:
+     # - RespectIgnoreDifferences=true
 kind: List
 metadata:
   resourceVersion: ""
