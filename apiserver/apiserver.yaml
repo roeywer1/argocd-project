@@ -21,17 +21,6 @@ items:
       type: aescbc 
     audit:
       profile: Default
-    ignoreDifferences:
-      - group: ""
-        kind: APIServer
-        jqPathExpressions:
-        - .metadata.uid
-        #jsonPointers:
-        #- /metadata/uid
-        #- /metadata/ownerReferences/uid
-    syncPolicy:
-      syncOptions:
-      - RespectIgnoreDifferences=true
 kind: List
 metadata:
   resourceVersion: ""
