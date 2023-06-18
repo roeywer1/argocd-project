@@ -1,0 +1,12 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+spec:
+  ignoreDifferences:
+  - group: "*"
+    kind: "*"
+    jsonPointers:
+    - /metadata/uid
+    - /metadata/ownerReferences/uid
+  syncPolicy:
+    syncOptions:
+    - RespectIgnoreDifferences=true
