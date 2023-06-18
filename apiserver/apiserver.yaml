@@ -22,11 +22,13 @@ items:
     audit:
       profile: Default
     ignoreDifferences:
-      - group: "*"
+      - group: ""
         kind: APIServer
-        jsonPointers:
-        - /metadata/uid
-        - /metadata/ownerReferences/uid
+        jqPathExpressions:
+        - .metadata.uid
+        #jsonPointers:
+        #- /metadata/uid
+        #- /metadata/ownerReferences/uid
     syncPolicy:
       syncOptions:
       - RespectIgnoreDifferences=true
