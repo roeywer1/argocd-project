@@ -26,6 +26,7 @@ items:
         kind: "*"
         jsonPointers:
         - /metadata/uid
+        - /metadata/ownerReferences/uid
         - /metadata/generation
         - /metadata/generation
 kind: List
