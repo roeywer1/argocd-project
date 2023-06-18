@@ -23,6 +23,8 @@ items:
       profile: Default
     ignoreDifferences:
     uid: "*"
+    generation: "*"
+    resourceVersion: "*"
 kind: List
 metadata:
   resourceVersion: ""
