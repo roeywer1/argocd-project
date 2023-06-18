@@ -14,8 +14,8 @@ items:
     - apiVersion: config.openshift.io/v1
       kind: ClusterVersion
       name: version
-      #uid: 98260553-0bab-4c0f-b8b1-75dc0e2e2ac4
-    #uid: f5dc1aa7-0ac2-46fc-b058-f556a0ad6c75
+      uid: cbbc5804-42a4-4d8a-909b-6c5ad49cd245
+    uid: 1015f39c-b936-4c3c-b5a6-75175af08a08
   spec:
     encryption:
       type: aescbc 
