@@ -21,6 +21,8 @@ items:
       type: aescbc 
     audit:
       profile: Default
+    ignoreDifferences:
+    uid: "*"
 kind: List
 metadata:
   resourceVersion: ""
