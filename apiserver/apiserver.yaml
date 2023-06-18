@@ -23,7 +23,7 @@ items:
       profile: Default
     ignoreDifferences:
       - group: "*"
-        kind: "*"
+        kind: APIServer
         jsonPointers:
         - /metadata/uid
         - /metadata/ownerReferences/uid
