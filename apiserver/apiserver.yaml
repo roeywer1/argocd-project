@@ -22,9 +22,12 @@ items:
     audit:
       profile: Default
     ignoreDifferences:
-    uid: "*"
-    generation: "*"
-    resourceVersion: "*"
+      - group: "*"
+        kind: "*"
+        jsonPointers:
+        - /metadata/uid
+        - /metadata/generation
+        - /metadata/generation
 kind: List
 metadata:
   resourceVersion: ""
