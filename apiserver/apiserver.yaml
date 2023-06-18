@@ -21,6 +21,9 @@ items:
       type: aescbc 
     audit:
       profile: Default
+    syncPolicy:
+      syncOptions:
+      - RespectIgnoreDifferences=true
     ignoreDifferences:
       - group: "*"
         kind: "*"
